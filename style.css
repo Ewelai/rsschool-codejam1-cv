@@ -1,3 +1,4 @@
+/*Header*/
 @import url('https://fonts.googleapis.com/css?family=Krub');
 
 body{
@@ -22,20 +23,19 @@ header{
     display: none;
 }
 
-.main-info .decoration-element{
+section .decoration-element{
     position: absolute;
     background-color: brown;
     width: 40px;
-    height: 200px;
+    height: 1024px;
 }
 
-.main-info .decoration-element2{
+section .decoration-element2{
     position: relative;
     float: right;
-    bottom: 200px;
     background-color: brown;
     width: 40px;
-    height: 200px;
+    height: 1024px;
 }
 
 .fig{
@@ -46,7 +46,7 @@ header{
 .fig img{
     position: relative;
     top: 9px;
-    left: 25%;
+    left: 10%;
     border-radius: 100%;
 }
 
@@ -59,10 +59,115 @@ header{
     top: 50px;
     padding-left: 17px;
     font-weight: bold;
-    
 }
 
 .fig p::first-letter{
     color: #fff;
     letter-spacing: 3px;
 }
+
+.fig p sup{
+    font-size: 18px;
+}
+
+/*Header end*/
+
+/*Summary*/
+section.summary{
+    height: 200px;
+    border-top: 3px solid brown;
+    outline: 0px solid red;
+    width: 850px;
+}
+
+.summary img{
+    margin: 10px 50px 0;
+}
+
+.summary h3{
+    position: relative;
+    right: 640px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
+
+article{
+    display: block;
+    margin-left: 50px;
+    width: 760px;
+}
+
+article.about-me p{
+    font-family: 'Krub', sans-serif;
+    font-size: 17px;
+}
+
+/*Summary end*/
+
+/*Skills*/
+section.skills{
+    border-top: 3px solid brown;
+    height: 300px;
+    outline: 1px solid red;
+    width: 850px;
+}
+
+.skills img{
+    margin: 10px 50px 0;
+}
+
+.skills h3{
+    position: relative;
+    right: 665px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.about-skills .border{
+    list-style: none;
+    padding: 0;
+}
+
+.border li {
+    font-family: 'Krub', sans-serif;
+    padding: 7px 10px;
+    margin: 0 20px 10px 0;
+    border-radius: 5px;
+    border-left: 10px solid #1D636B;
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+     -2px -2px 5px 0 rgba(0,0,0,.1);
+}
+    
+/*Skills end*/
+
+/*Code Example*/
+section.code-examples{
+    border-top: 3px solid brown;
+    height: 200px;
+    outline: 1px solid red;
+    width: 850px;
+}
+
+.code-examples img{
+    margin: 10px 50px 0;
+}
+
+.code-examples h3{
+    position: relative;
+    right: 605px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
+
+
+
+
+
+
+/*Code Example end*/
