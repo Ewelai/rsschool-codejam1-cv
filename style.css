@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Krub');
+
+body{
+    padding-top: 5px;
+    width: 850px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+header{
+    width: 850px;
+    height: 200px;
+}
+
+.main-info{
+    position: relative;
+    width: 850px;
+    height: 200px;
+}
+
+.hidden-element{
+    display: none;
+}
+
+.main-info .decoration-element{
+    position: absolute;
+    background-color: brown;
+    width: 40px;
+    height: 200px;
+}
+
+.main-info .decoration-element2{
+    position: relative;
+    float: right;
+    bottom: 200px;
+    background-color: brown;
+    width: 40px;
+    height: 200px;
+}
+
+.fig{
+    height: 200px;
+    margin: 0 auto;
+}
+
+.fig img{
+    position: relative;
+    top: 9px;
+    left: 25%;
+    border-radius: 100%;
+}
+
+.fig p{
+    font-family: 'Krub', sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    float: left;
+    position: relative;
+    top: 50px;
+    padding-left: 17px;
+    font-weight: bold;
+    
+}
+
+.fig p::first-letter{
+    color: #fff;
+    letter-spacing: 3px;
+}
