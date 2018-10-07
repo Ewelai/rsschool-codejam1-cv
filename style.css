@@ -8,14 +8,12 @@ body{
     outline: 1px solid red;
 }
 
-header{
-    width: 850px;
-    height: 200px;
+.information-block, .header-block{
+    position: relative;
 }
 
-.main-info{
-    position: relative;
-    width: 850px;
+header{
+    width: 100%;
     height: 200px;
 }
 
@@ -25,17 +23,16 @@ header{
 
 section .decoration-element{
     position: absolute;
-    background-color: brown;
+    background-color: #A52A2A;
     width: 40px;
-    height: 1024px;
+    height: 1826px;
 }
 
 section .decoration-element2{
-    position: relative;
     float: right;
-    background-color: brown;
+    background-color: #A52A2A;
     width: 40px;
-    height: 1024px;
+    height: 1826px;
 }
 
 .fig{
@@ -75,7 +72,7 @@ section .decoration-element2{
 /*Summary*/
 section.summary{
     height: 200px;
-    border-top: 3px solid brown;
+    border-top: 3px solid #A52A2A;
     outline: 0px solid red;
     width: 850px;
 }
@@ -108,7 +105,7 @@ article.about-me p{
 
 /*Skills*/
 section.skills{
-    border-top: 3px solid brown;
+    border-top: 3px solid #A52A2A;
     height: 300px;
     outline: 1px solid red;
     width: 850px;
@@ -127,7 +124,7 @@ section.skills{
     float: right;
 }
 
-.about-skills .border{
+.border{
     list-style: none;
     padding: 0;
 }
@@ -146,7 +143,7 @@ section.skills{
 
 /*Code Example*/
 section.code-examples{
-    border-top: 3px solid brown;
+    border-top: 3px solid #A52A2A;
     height: 200px;
     outline: 1px solid red;
     width: 850px;
@@ -165,9 +162,40 @@ section.code-examples{
     float: right;
 }
 
+.border a{
+    color: #4B915F;
+    text-decoration: none;
+}
 
+.border a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #4E7B6C;
+}
 
+.border a:active{
+    text-decoration: underline;
+    color: #265539;
+}
 
-
+.border a:active{
+    color: #4C925D;
+}
 
 /*Code Example end*/
+
+/*Experience*/
+section.experience{
+    border-top: 3px solid #A52A2A;
+    height: 350px;
+    outline: 1px solid red;
+    width: 850px;
+}
+
+.experience img{
+    margin: 10px 50px 0;
+}
+
+
+
+/*Experience end*/
