@@ -206,7 +206,6 @@ section.experience{
 /*Education*/
 section.education{
     border-top: 3px solid #A52A2A;
-    outline: 1px solid red;
     height: 290px;
     width: 850px;
 }
@@ -225,5 +224,27 @@ section.education{
 }
 
 /*Education end*/
+
+/*English*/
+section.english{
+    border-top: 3px solid #A52A2A;
+    height: 245px;
+    width: 850px;
+}
+
+.english img{
+    margin: 10px 50px 0;
+}
+
+.english h3{
+    position: relative;
+    right: 650px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
+
+/*English end*/
 
 
