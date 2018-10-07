@@ -1,0 +1,381 @@
+/*Header*/
+@import url('https://fonts.googleapis.com/css?family=Krub');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    padding-top: 5px;
+    width: 850px;
+    margin: 0 auto;
+}
+
+.information-block, .header-block{
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+}
+
+.hidden-element{
+    display: none;
+}
+
+section .decoration-element{
+    position: absolute;
+    background-color: #A52A2A;
+    width: 40px;
+    height: 1937px;
+}
+
+section .decoration-element2{
+    float: right;
+    background-color: #A52A2A;
+    width: 40px;
+    height: 1937px;
+}
+
+.fig{
+    height: 200px;
+    margin: 0 auto;
+}
+
+.fig img{
+    position: relative;
+    top: 9px;
+    left: 10%;
+    border-radius: 100%;
+}
+
+.fig p{
+    font-family: 'Krub', sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    float: left;
+    position: relative;
+    top: 50px;
+    padding-left: 17px;
+    font-weight: bold;
+}
+
+.fig p::first-letter{
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.fig p sup{
+    font-size: 18px;
+}
+
+/*Header end*/
+
+/*Summary*/
+section.summary{
+    height: 200px;
+    border-top: 3px solid #A52A2A;
+    width: 850px;
+}
+
+.flaticon-summary{
+    background: url(image/main.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 10px 50px 0;
+}
+
+.summary h3{
+    position: relative;
+    right: 640px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
+
+article{
+    display: block;
+    margin-left: 50px;
+    width: 760px;
+}
+
+article.about-me p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/*Summary end*/
+
+/*Skills*/
+section.skills{
+    border-top: 3px solid #A52A2A;
+    height: 290px;
+    width: 850px;
+}
+
+.flaticon-skills{
+    background: url(image/skills.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 10px 50px 0;
+}
+
+.skills h3{
+    position: relative;
+    right: 665px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.border{
+    list-style: none;
+    padding: 0;
+}
+
+.border li {
+    font-family: 'Krub', sans-serif;
+    padding: 7px 10px;
+    margin: 0 20px 10px 0;
+    border-radius: 5px;
+    border-left: 10px solid #1D636B;
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+     -2px -2px 5px 0 rgba(0,0,0,.1);
+}
+    
+/*Skills end*/
+
+/*Code Example*/
+section.code-examples{
+    border-top: 3px solid #A52A2A;
+    height: 200px;
+    width: 850px;
+}
+
+.flaticon-code{
+    background: url(image/code.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 10px 50px 0;
+}
+
+.code-examples h3{
+    position: relative;
+    right: 605px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.border a{
+    color: #4B915F;
+    text-decoration: none;
+}
+
+.border a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #4E7B6C;
+}
+
+.border a:active{
+    text-decoration: underline;
+    color: #265539;
+}
+
+/*Code Example end*/
+
+/*Experience*/
+section.experience{
+    border-top: 3px solid #A52A2A;
+    height: 290px;
+    width: 850px;
+}
+
+.flaticon-experience{
+    background: url(image/experience.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 10px 50px 0;
+}
+
+.experience h3{
+    position: relative;
+    right: 630px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
+
+/*Experience end*/
+
+/*Education*/
+section.education{
+    border-top: 3px solid #A52A2A;
+    height: 290px;
+    width: 850px;
+}
+
+.flaticon-education{
+    background: url(image/education.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 10px 50px 0;
+}
+
+.education h3{
+    position: relative;
+    right: 635px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
+
+/*Education end*/
+
+/*English*/
+section.english{
+    border-top: 3px solid #A52A2A;
+    height: 245px;
+    width: 850px;
+}
+
+.flaticon-english{
+    background: url(image/english.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 10px 50px 0;
+}
+
+.english h3{
+    position: relative;
+    right: 653px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
+
+/*English end*/
+
+/*Footer*/
+
+footer.main-footer{
+    border-top: 3px solid #A52A2A;
+    border-bottom: 3px solid #A52A2A;
+    height: 200px;
+    width: 850px;
+}
+
+.flaticon-contacts{
+    background: url(image/contact.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 10px 50px 0;
+}
+
+.contacts{
+    display: block;
+}
+
+.contacts h3{
+    position: relative;
+    right: 640px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.contacts ul{
+    display: block;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.contacts ul li a{
+    font-family: 'Krub', sans-serif;
+    padding-left: 30px;
+}
+
+.contacts a{
+    color: #4B915F;
+    text-decoration: none;
+}
+
+.contacts a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #4E7B6C;
+}
+
+.contacts a:active{
+    text-decoration: underline;
+    color: #265539;
+}
+
+.contacts-another{
+    position: relative;
+    bottom: 183px;
+    left: 545px;
+    display: inline-block;
+}
+
+.contacts-another ul{
+    padding: 0;
+    font-family: 'Krub', sans-serif;
+    list-style-type: none;
+}
+
+.contacts-another p{
+    margin: 0;
+}
+
+.social p{
+    margin-left: 30px;
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.social-vk{
+    background: url("image/vk.png") no-repeat;
+}
+
+.social-fb{
+    background: url("image/facebook.png") no-repeat;
+}
+
+.social-gh{
+    background: url("image/github.png") no-repeat;
+}
+
+.phone{
+    background: url("image/phone.png") no-repeat;
+}
+
+.email{
+    background: url("image/mail.png") no-repeat;
+}
+
+.skype{
+    background: url("image/skype.png") no-repeat;
+}
+
+/*Footer end*/
+
+
