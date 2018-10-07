@@ -73,7 +73,6 @@ section .decoration-element2{
 section.summary{
     height: 200px;
     border-top: 3px solid #A52A2A;
-    outline: 0px solid red;
     width: 850px;
 }
 
@@ -106,8 +105,7 @@ article.about-me p{
 /*Skills*/
 section.skills{
     border-top: 3px solid #A52A2A;
-    height: 300px;
-    outline: 1px solid red;
+    height: 290px;
     width: 850px;
 }
 
@@ -145,7 +143,6 @@ section.skills{
 section.code-examples{
     border-top: 3px solid #A52A2A;
     height: 200px;
-    outline: 1px solid red;
     width: 850px;
 }
 
@@ -187,8 +184,7 @@ section.code-examples{
 /*Experience*/
 section.experience{
     border-top: 3px solid #A52A2A;
-    height: 350px;
-    outline: 1px solid red;
+    height: 290px;
     width: 850px;
 }
 
@@ -196,6 +192,38 @@ section.experience{
     margin: 10px 50px 0;
 }
 
-
+.experience h3{
+    position: relative;
+    right: 630px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
 
 /*Experience end*/
+
+/*Education*/
+section.education{
+    border-top: 3px solid #A52A2A;
+    outline: 1px solid red;
+    height: 290px;
+    width: 850px;
+}
+
+.education img{
+    margin: 10px 50px 0;
+}
+
+.education h3{
+    position: relative;
+    right: 635px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
+
+/*Education end*/
+
+
