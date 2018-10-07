@@ -1,11 +1,11 @@
 /*Header*/
 @import url('https://fonts.googleapis.com/css?family=Krub');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body{
     padding-top: 5px;
     width: 850px;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 
 .information-block, .header-block{
@@ -25,14 +25,14 @@ section .decoration-element{
     position: absolute;
     background-color: #A52A2A;
     width: 40px;
-    height: 1826px;
+    height: 1937px;
 }
 
 section .decoration-element2{
     float: right;
     background-color: #A52A2A;
     width: 40px;
-    height: 1826px;
+    height: 1937px;
 }
 
 .fig{
@@ -76,7 +76,11 @@ section.summary{
     width: 850px;
 }
 
-.summary img{
+.flaticon-summary{
+    background: url(image/main.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
     margin: 10px 50px 0;
 }
 
@@ -96,8 +100,8 @@ article{
 }
 
 article.about-me p{
-    font-family: 'Krub', sans-serif;
-    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 /*Summary end*/
@@ -109,7 +113,11 @@ section.skills{
     width: 850px;
 }
 
-.skills img{
+.flaticon-skills{
+    background: url(image/skills.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
     margin: 10px 50px 0;
 }
 
@@ -146,7 +154,11 @@ section.code-examples{
     width: 850px;
 }
 
-.code-examples img{
+.flaticon-code{
+    background: url(image/code.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
     margin: 10px 50px 0;
 }
 
@@ -175,10 +187,6 @@ section.code-examples{
     color: #265539;
 }
 
-.border a:active{
-    color: #4C925D;
-}
-
 /*Code Example end*/
 
 /*Experience*/
@@ -188,7 +196,11 @@ section.experience{
     width: 850px;
 }
 
-.experience img{
+.flaticon-experience{
+    background: url(image/experience.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
     margin: 10px 50px 0;
 }
 
@@ -210,7 +222,11 @@ section.education{
     width: 850px;
 }
 
-.education img{
+.flaticon-education{
+    background: url(image/education.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
     margin: 10px 50px 0;
 }
 
@@ -232,13 +248,17 @@ section.english{
     width: 850px;
 }
 
-.english img{
+.flaticon-english{
+    background: url(image/english.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
     margin: 10px 50px 0;
 }
 
 .english h3{
     position: relative;
-    right: 650px;
+    right: 653px;
     font-family: 'Krub', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
@@ -246,5 +266,113 @@ section.english{
 }
 
 /*English end*/
+
+
+footer.main-footer{
+    border-top: 3px solid #A52A2A;
+    border-bottom: 3px solid #A52A2A;
+    height: 200px;
+    width: 850px;
+}
+
+.flaticon-contacts{
+    background: url(image/contact.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 10px 50px 0;
+}
+
+.contacts{
+    display: block;
+}
+
+.contacts h3{
+    position: relative;
+    right: 640px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.contacts ul{
+    display: block;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.contacts ul li a{
+    font-family: 'Krub', sans-serif;
+    padding-left: 30px;
+}
+
+.contacts a{
+    color: #4B915F;
+    text-decoration: none;
+}
+
+.contacts a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #4E7B6C;
+}
+
+.contacts a:active{
+    text-decoration: underline;
+    color: #265539;
+}
+
+.contacts-another{
+    position: relative;
+    bottom: 183px;
+    left: 440px;
+    display: inline-block;
+}
+
+.contacts-another ul{
+    padding: 0;
+    font-family: 'Krub', sans-serif;
+    list-style-type: none;
+}
+
+.contacts-another p{
+    margin: 0;
+}
+
+.social p{
+    margin-left: 30px;
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.social-vk{
+    background: url("image/vk.png") no-repeat;
+}
+
+.social-fb{
+    background: url("image/facebook.png") no-repeat;
+}
+
+.social-gh{
+    background: url("image/github.png") no-repeat;
+}
+
+.phone{
+    background: url("image/phone.png") no-repeat;
+}
+
+.email{
+    background: url("image/mail.png") no-repeat;
+}
+
+.skype{
+    background: url("image/skype.png") no-repeat;
+}
 
 
