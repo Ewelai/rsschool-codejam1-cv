@@ -267,6 +267,7 @@ section.english{
 
 /*English end*/
 
+/*Footer*/
 
 footer.main-footer{
     border-top: 3px solid #A52A2A;
@@ -374,5 +375,7 @@ footer.main-footer{
 .skype{
     background: url("image/skype.png") no-repeat;
 }
+
+/*Footer end*/
 
 
